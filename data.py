@@ -1,0 +1,11 @@
+BASE_URL = 'https://stellarburgers.education-services.ru/api'
+REGISTER_URL = f'{BASE_URL}/auth/register'
+LOGIN_URL = f'{BASE_URL}/auth/login'
+USER_URL = f'{BASE_URL}/auth/user'
+INGREDIENTS_URL = f'{BASE_URL}/ingredients'
+ORDERS_URL = f'{BASE_URL}/orders'
+
+USER_EXISTS = 'User already exists'
+REQUIRED_FIELDS = 'Email, password and name are required fields'
+INCORRECT_LOGIN = 'email or password are incorrect'
+NO_INGREDIENTS = 'Ingredient ids must be provided'
